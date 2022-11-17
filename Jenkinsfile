@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git branch:'main', url:'https://github.com/nevermyuk/3103-quiz-webapp.git'
+                git branch:'main', url:'https://github.com/Iciclemeltz/3103-quiz-webapp.git'
             }
         }
 
